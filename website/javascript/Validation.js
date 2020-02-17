@@ -69,6 +69,8 @@ const Validation = function () {
 	};
 
 	const _module = function (moduleObj) {
+                console.log("here");
+                console.log(moduleObj.moduleKey);
 		let schema = MODULES[moduleObj.moduleKey].configSchema;
 		let receivedConfig = moduleObj.config;
 

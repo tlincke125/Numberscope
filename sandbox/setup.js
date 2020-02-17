@@ -36,12 +36,12 @@
 
 
 setup ={
-    sequence: 'Fibonacci',
+    sequence: 'Primes',
     seqtype: 'builtIn',
     parameters: {
-        m: 5 // '' means empty argument
+      m: 5
     },
-    moduleKey: 'Differences',
+    moduleKey: 'FractalMap',
     config: {
         n: 20,
         Levels: 2
@@ -66,3 +66,17 @@ setup ={
 //         yourParam2: someValue2
 //     },
 // }
+
+
+// setup ={
+//     sequence: 'Fibonacci',
+//     seqtype: 'builtIn',
+//     parameters: {
+//         m: 5 // '' means empty argument
+//     },
+//     moduleKey: 'Differences',
+//     config: {
+//         n: 20,
+//         Levels: 2
+//     },
+// };

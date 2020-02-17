@@ -11,3 +11,6 @@ MODULES["Turtle"] = require('./moduleTurtle.js');
 MODULES["ShiftCompare"] = require('./moduleShiftCompare.js');
 MODULES["Differences"] = require('./moduleDifferences.js');
 MODULES["ModFill"] = require('./moduleModFill.js');
+MODULES['Zeta'] = require('./moduleZeta.js')
+
+MODULES['FractalMap'] = require('./moduleFractalMap.js')
